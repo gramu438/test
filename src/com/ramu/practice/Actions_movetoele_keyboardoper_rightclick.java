@@ -16,17 +16,17 @@ public class Actions_movetoele_keyboardoper_rightclick {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\Ramesh soft\\ramu.practice\\Drivers\\chromedriver.exe");
+				"D:\\ram\\ramu.practice\\Drivers\\chromedriver.exe");
 		   WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com");
-//		Actions action=new Actions(driver);
-//		WebElement moveToEle = driver.findElement(By.id("nav-link-accountList"));
-//		action.moveToElement(moveToEle).build().perform();
-//		WebElement keyboard = driver.findElement(By.id("twotabsearchtextbox"));
-//		action.moveToElement(keyboard).click().keyDown(Keys.SHIFT)
-//		.sendKeys("hello").contextClick().build().perform();
+		Actions action=new Actions(driver);
+		WebElement moveToEle = driver.findElement(By.id("nav-link-accountList"));
+		action.moveToElement(moveToEle).build().perform();
+		WebElement keyboard = driver.findElement(By.id("twotabsearchtextbox"));
+		action.moveToElement(keyboard).click().keyDown(Keys.SHIFT)
+		.sendKeys("hello").contextClick().build().perform();
 		
         //driver.close();
 	}
