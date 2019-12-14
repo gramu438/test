@@ -9,7 +9,7 @@ public class TotalLinksOfPage {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\Ramesh soft\\ramu.practice\\Drivers\\chromedriver.exe ");
+				"D:\\ram\\ramu.practice\\Drivers\\chromedriver.exe ");
            WebDriver driver=new ChromeDriver();
            driver.manage().deleteAllCookies();
            driver.manage().window().maximize();

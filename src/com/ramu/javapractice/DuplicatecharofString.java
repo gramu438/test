@@ -27,7 +27,7 @@ public class DuplicatecharofString {
 		
 
 	public static void main(String[] args) {
-		DuplicateString("ramu  mar  raa");
+		DuplicateString("ramu  mar  raa java selenium ");
 
 	}
 

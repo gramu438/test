@@ -1,4 +1,4 @@
-package com.ramu.javapractice;
+ package com.ramu.javapractice;
 
 public class StringExtractNum_Sum {
 

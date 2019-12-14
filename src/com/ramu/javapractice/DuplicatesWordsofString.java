@@ -10,7 +10,7 @@ public class DuplicatesWordsofString {
 		String[] s = str.split(" ");
 		for (String s1 : s) {
 			if (map.containsKey(s1)) {
-				map.put(s1, map.get(s1) + 1);
+				map.put(s1, map.get(s1) + 1); 
 			} else {
 				map.put(s1, 1);
 			}

@@ -9,6 +9,7 @@ public class FindMissingNum {
 
 	public static void main(String[] args) {
 		int[] ab = { 6, 9, 3, 1 };
+		System.out.println(ab.length);
 		TreeSet<Integer> ts = new TreeSet<>();
 		for (Integer i : ab) {
 			ts.add(i);
